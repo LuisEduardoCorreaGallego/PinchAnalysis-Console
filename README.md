@@ -30,5 +30,5 @@ Generate the tables corresponding to the specifications of the currents, the tem
 #### First step
 Create the plain text file with the requires information.
 
-![Test Image 1](Pinch_StreamData.jpg)
+![StreamData](Pinch_StreamData.jpg)
 
