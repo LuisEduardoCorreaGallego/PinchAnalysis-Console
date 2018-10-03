@@ -9,7 +9,7 @@ The plain text file must have the following format and the same order:
 
 * <a href="https://www.codecogs.com/eqnedit.php?latex=\dot{Q}" target="_blank"><img src="https://latex.codecogs.com/gif.latex?\dot{Q}" title="\dot{Q}" /></a>
 * <a href="https://www.codecogs.com/eqnedit.php?latex=T_{min}" target="_blank"><img src="https://latex.codecogs.com/gif.latex?T_{in}" title="T_{in}" /></a>
-* <a href="https://www.codecogs.com/eqnedit.php?latex=T_{min}" target="_blank"><img src="https://latex.codecogs.com/gif.latex?T_{out}" title="T_{out}" /></a>
+* <a href="https://www.codecogs.com/eqnedit.php?latex=T_{min} \ (°C)" target="_blank"><img src="https://latex.codecogs.com/gif.latex?T_{out}" title="T_{out}" /></a>
 * <a href="https://www.codecogs.com/eqnedit.php?latex={\Delta&space;T}_{min}" target="_blank"><img src="https://latex.codecogs.com/gif.latex?{\Delta&space;T}_{min}" title="{\Delta T}_{min}" /></a>
 
 ### Calculation example
@@ -19,6 +19,11 @@ In a process, there are a total of six streams that require heating and cooling.
 Stream | Condition | <a href="https://www.codecogs.com/eqnedit.php?latex=T_{min}" target="_blank"><img src="https://latex.codecogs.com/gif.latex?T_{in}" title="T_{in}" /></a> | <a href="https://www.codecogs.com/eqnedit.php?latex=T_{min}" target="_blank"><img src="https://latex.codecogs.com/gif.latex?T_{out}" title="T_{out}" /></a> | <a href="https://www.codecogs.com/eqnedit.php?latex=\dot{Q}" target="_blank"><img src="https://latex.codecogs.com/gif.latex?\dot{Q}" title="\dot{Q}" /></a>
 ------------ | ------------- | ------------- | ------------- | -------------
 1 | Hot | 300 | 150 | 1200
+2 | Hot | 150 | 50 | 200
+3 | Hot | 200 | 50 | 450
+4 | Cold | 190 | 290 | -500
+5 | Cold | 90 | 190 | -800
+6 | Cold | 40 | 190 | -600
 
 Calculate
 
