@@ -13,4 +13,9 @@ The plain text file must have the following format and the same order:
 * <a href="https://www.codecogs.com/eqnedit.php?latex={\Delta&space;T}_{min}" target="_blank"><img src="https://latex.codecogs.com/gif.latex?{\Delta&space;T}_{min}" title="{\Delta T}_{min}" /></a>
 
 ### Calculation example
-We have four streams with the following specification:
+We have six streams with the following specifications:
+
+Stream | Condition | T_in (°C) | T_out (°C) | Q_avalaible (kW)
+------------ | ------------- | ------------- | ------------- | -------------
+1 | Hot | 300 | 150 | 1200
+
