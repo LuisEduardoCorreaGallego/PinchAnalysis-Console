@@ -32,3 +32,18 @@ Create the plain text file with the requires information.
 
 ![StreamData](Pinch_StreamData.jpg)
 
+#### Second step
+
+![StreamData](Pinch_ShiftedTemperatures.jpg)
+
+#### Third step
+
+![StreamData](Pinch_HeatCascade.jpg)
+
+#### Fourth step
+
+![StreamData](Pinch_CompositeCurve.jpg)
+
+#### Fifth step
+
+![StreamData](Pinch_GrandCompositeCurve.jpg)
