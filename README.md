@@ -7,7 +7,7 @@ To use this application, it is necessary to attach a plain text file document wi
 ## Required information
 The plain text file must have the following format and the same order:
 
-* Q_dot
-* $T_{start}$
-* $T_{target}$
-* ${\Delta T}_{min}$
+* <a href="https://www.codecogs.com/eqnedit.php?latex=\dot{Q}" target="_blank"><img src="https://latex.codecogs.com/gif.latex?\dot{Q}" title="\dot{Q}" /></a>
+* <a href="https://www.codecogs.com/eqnedit.php?latex=T_{min}" target="_blank"><img src="https://latex.codecogs.com/gif.latex?T_{min}" title="T_{in}" /></a>
+* <a href="https://www.codecogs.com/eqnedit.php?latex=T_{min}" target="_blank"><img src="https://latex.codecogs.com/gif.latex?T_{min}" title="T_{out}" /></a>
+* 
