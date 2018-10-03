@@ -7,7 +7,6 @@ Description: None
 Category: Chemical Engineering
 Requested Elements: File text with streams information
 Author: Luis Eduardo Correa Gallego <luise.correa@udea.edu.co>, 1.10.18
-Code base: johannes <info@numex-blog.com>, 10.03.18
 Created on: 1/10/2018
 Last modification: 2/10/2018
 Used IDE: PyCharm Professional Edition
