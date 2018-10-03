@@ -8,10 +8,6 @@ To use this application, it is necessary to attach a plain text file document wi
 The plain text file must have the following format and the same order:
 
 * Q_dot
-* T_start
-* T_target
-* dT_min
-
-```python
-def hi(x):
-     9
+* $T_{start}$
+* $T_{target}$
+* ${\Delta T}_{min}$
