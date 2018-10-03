@@ -20,8 +20,8 @@ plt.style.use('seaborn')
 IN_array = np.loadtxt('Data.txt', skiprows=1, unpack=False)
 
 # Set units for temperature and heat flow
-T_units = "°F"
-Q_units = "BTU/h"
+T_units = "°C"
+Q_units = "kW"
 
 # Generate stream list from information on text file
 streamList = {}
