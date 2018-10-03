@@ -33,17 +33,21 @@ Create the plain text file with the requires information.
 ![StreamData](Pinch_StreamData.jpg)
 
 #### Second step
+Calculate the temperatures corrected by the minimum approach.
 
 ![StreamData](Pinch_ShiftedTemperatures.jpg)
 
 #### Third step
+Calculate the corresponding heat flow cascade
 
 ![StreamData](Pinch_HeatCascade.jpg)
 
 #### Fourth step
+Elaborate the graph of cumulative enthalpies
 
 ![StreamData](Pinch_CompositeCurve.jpg)
 
 #### Fifth step
+Elaborate the grand composite graphic
 
 ![StreamData](Pinch_GrandCompositeCurve.jpg)
