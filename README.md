@@ -25,5 +25,8 @@ Stream | Condition | <a href="https://www.codecogs.com/eqnedit.php?latex=T_{min}
 5 | Cold | 90 | 190 | -800 |
 6 | Cold | 40 | 190 | -600 |
 
-Calculate
+Generate the tables corresponding to the specifications of the currents, the temperatures of interval and the cascade of heat flow as well as the graphs of cumulative enthalpies and grand composite.
+
+#### First step
+Create the plain text file with the requires information.
 
