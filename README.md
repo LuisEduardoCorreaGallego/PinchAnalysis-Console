@@ -61,7 +61,7 @@ Elaborate the grand composite graphic
 **Example 10.2 HENS Problem 4SP1** _[Adapted from SYSTEMATIC METHODS OF CHEMICAL PROCESS DESIGN, L. T. Biegler, I. E. Grossmann, A. W. Westerberg, page X]_
 The literature contains several test problems for testing the effectiveness of heat exchanger work synthesis algorithms. Problem 4SP1 (four streams problem number 1) is one of the shall use it to illustrate how to use Hohmann/Lockhart composite curves to compute mixed utility use for a heat exchanger network synthesis problem. Table 10.6 gives the data for the problem.
 
------------- | ------------- | Table 10.6 | ------------- | ------------- |
+ |  | Table 10.6 |  |  |
 Stream | Condition | <a href="https://www.codecogs.com/eqnedit.php?latex=T_{in}&space;\&space;(^{}\circ&space;C)" target="_blank"><img src="https://latex.codecogs.com/gif.latex?T_{in}&space;\&space;(^{}\circ&space;C)" title="T_{in} \ (^{}\circ C)" /></a> | <a href="https://www.codecogs.com/eqnedit.php?latex=T_{out}&space;\&space;(^{\circ}&space;C)" target="_blank"><img src="https://latex.codecogs.com/gif.latex?T_{out}&space;\&space;(^{\circ}&space;C)" title="T_{out} \ (^{\circ} C)" /></a>| <a href="https://www.codecogs.com/eqnedit.php?latex={\dot{Q}}_{available}&space;\&space;(kW)" target="_blank"><img src="https://latex.codecogs.com/gif.latex?{\dot{Q}}_{available}&space;\&space;(kW)" title="{\dot{Q}}_{available} \ (kW)" /></a>
 ------------ | ------------- | ------------- | ------------- | ------------- |
 1 | Cold | 60 | 160 | 762.0 |
