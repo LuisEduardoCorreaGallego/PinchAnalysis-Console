@@ -56,4 +56,5 @@ Elaborate the grand composite graphic
 ![StreamData](Pinch_GrandCompositeCurve.jpg)
 
 **Second example**
+
 **Example 5.4**
