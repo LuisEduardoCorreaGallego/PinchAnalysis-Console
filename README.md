@@ -12,7 +12,8 @@ The plain text file must have the following format and the same order:
 * <a href="https://www.codecogs.com/eqnedit.php?latex=T_{min}" target="_blank"><img src="https://latex.codecogs.com/gif.latex?T_{out}" title="T_{out}" /></a>
 * <a href="https://www.codecogs.com/eqnedit.php?latex={\Delta&space;T}_{min}" target="_blank"><img src="https://latex.codecogs.com/gif.latex?{\Delta&space;T}_{min}" title="{\Delta T}_{min}" /></a>
 
-### Calculation example
+### Calculation examples
+**First example**
 **Example 15.2** _[Adapted from Analysis, Synthesis and Design of Chemical Processes, Richard Turton, Richard C. Baille, Wallace B. Whiting, Joseph A. Shaeiwitz, page 525]_
 In a process, there are a total of six streams that require heating and cooling. These are listed below along with their thermal and flow data. A stream is referred to as "hot" if it requires cooling, and "cold" if it requires heating. The temperature of the stream is not used to define whether it is "hot" or "cold".
 
@@ -51,3 +52,6 @@ Elaborate the graph of cumulative enthalpies
 Elaborate the grand composite graphic
 
 ![StreamData](Pinch_GrandCompositeCurve.jpg)
+
+**Second example**
+**Example 5.4**
