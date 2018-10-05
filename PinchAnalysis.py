@@ -10,34 +10,35 @@ Author: Luis Eduardo Correa Gallego <luise.correa@udea.edu.co>, 1.10.18
 Created on: 1/10/2018
 Last modification: 2/10/2018
 Used IDE: PyCharm Professional Edition
-License: MIT License (http://opensource.org/licenses/MIT)
 """
 import matplotlib.pyplot as plt
 import numpy as np
 plt.style.use('seaborn')
 
 # Load data from text file
-IN_array = np.loadtxt('Data.txt', skiprows=1, unpack=False)
+Specifications_array = np.loadtxt('Data.txt', skiprows=1, unpack=False)
 
 # Set units for temperature and heat flow
-T_units = "°C"
-Q_units = "kW"
+T_units = "°F"
+Q_units = "BTU/h"
 
 # Generate stream list from information on text file
 streamList = {}
-for i in range(0, len(IN_array)):
-        streamList["Stream_{0}".format(i+1)]=list(IN_array[i])
+for i in range(0, len(Specifications_array)):
+        streamList["Stream_{0}".format(i+1)]=list(Specifications_array[i])
 locals().update(streamList)
-IN = list(streamList.values())
+Specifications = list(streamList.values())
 
 # Separating data by type: heat flow,
 #                          start temperature,
 #                          target temperature
-#                          dT_min
-Data = [[IN[i][0] for i in range(len(IN))],
-        [IN[i][1] for i in range(len(IN))],
-        [IN[i][2] for i in range(len(IN))],
-        [IN[i][3] for i in range(len(IN))]]
+#                          approach
+Data = [[Specifications[i][0] for i in range(len(Specifications))],
+        [Specifications[i][1] for i in range(len(Specifications))],
+        [Specifications[i][2] for i in range(len(Specifications))],
+        [Specifications[i][3] for i in range(len(Specifications))]]
+
+# Generate sets for each type
 Q_dot = Data[0]
 T_in = Data[1]
 T_out = Data[2]
@@ -47,46 +48,46 @@ dT_min = Data[3]
 hotStreamIndex = []
 coldStreamIndex = []
 
-for i in range(len(IN)):
-    if IN[i][1] > IN[i][2]:
+for i in range(len(Specifications)):
+    if Specifications[i][1] > Specifications[i][2]:
         hotStreamIndex.append(i)
-    elif IN[i][1] < IN[i][2]:
+    elif Specifications[i][1] < Specifications[i][2]:
         coldStreamIndex.append(i)
 
 # Calculate source and sink heat flow
 Q_dot_source = 0
 
 for i in range(len(hotStreamIndex)):
-    Q_dot_source = Q_dot_source + IN[hotStreamIndex[i]][0]  
+    Q_dot_source = Q_dot_source + Specifications[hotStreamIndex[i]][0]  
 
 Q_dot_sink = 0
 
 for i in range(len(coldStreamIndex)):
-    Q_dot_sink = Q_dot_sink + IN[coldStreamIndex[i]][0]
+    Q_dot_sink = Q_dot_sink + Specifications[coldStreamIndex[i]][0]
 
 # Shifted temperature and heat capacity flow hot stream    
 for i in range(len(hotStreamIndex)):
-    deltaT = 0.5*IN[i][3]
+    deltaT = 0.5*Specifications[i][3]
     row = hotStreamIndex[i]
-    IN[row].append(IN[row][1] - deltaT) 
-    IN[row].append(IN[row][2] - deltaT)
-    IN[row].append(IN[row][0]/(IN[row][5]- IN[row][4]))
+    Specifications[row].append(Specifications[row][1] - deltaT) 
+    Specifications[row].append(Specifications[row][2] - deltaT)
+    Specifications[row].append(Specifications[row][0]/(Specifications[row][5]- Specifications[row][4]))
 
 # Shifted temperature and heat capacity flow cold stream
 deltaT = 0
 
 for i in range(len(coldStreamIndex)):
-    deltaT = 0.5*IN[i][3]
+    deltaT = 0.5*Specifications[i][3]
     row = coldStreamIndex[i]
-    IN[row].append(IN[row][1] + deltaT)
-    IN[row].append(IN[row][2] + deltaT)
-    IN[row].append(IN[row][0]/(IN[row][5]- IN[row][4]))
+    Specifications[row].append(Specifications[row][1] + deltaT)
+    Specifications[row].append(Specifications[row][2] + deltaT)
+    Specifications[row].append(Specifications[row][0]/(Specifications[row][5]- Specifications[row][4]))
 
 # Get temperatures and intervals
 temperatures = []
-for i in range(len(IN)):
-    temperatures.append(IN[i][4])
-    temperatures.append(IN[i][5])
+for i in range(len(Specifications)):
+    temperatures.append(Specifications[i][4])
+    temperatures.append(Specifications[i][5])
 
 # Get sorting index
 tempInd = np.argsort(temperatures)
@@ -119,12 +120,12 @@ for i in range(len(cascade)):
     cascadeSource[i].append(cascade[i][0] - cascade[i][1]) 
     C_source = 0
     C_sink = 0
-    for j in range(len(IN)):
-        if (cascade[i][0] <= IN[j][4]) and (cascade[i][1] >= IN[j][5]) and (IN[j][6] < 0):
-            C_source = C_source + IN[j][6]
-    for j in range(len(IN)):     
-        if (cascade[i][0] > IN[j][4]) and (cascade[i][1] < IN[j][5]) and (IN[j][6] > 0):
-            C_sink =C_sink + IN[j][6]
+    for j in range(len(Specifications)):
+        if (cascade[i][0] <= Specifications[j][4]) and (cascade[i][1] >= Specifications[j][5]) and (Specifications[j][6] < 0):
+            C_source = C_source + Specifications[j][6]
+    for j in range(len(Specifications)):     
+        if (cascade[i][0] > Specifications[j][4]) and (cascade[i][1] < Specifications[j][5]) and (Specifications[j][6] > 0):
+            C_sink =C_sink + Specifications[j][6]
     cascade[i].append(C_source + C_sink)
     cascade[i].append(cascade[i][3] * cascade[i][2])  
     cascadeSink[i].append(C_sink)  
@@ -234,7 +235,7 @@ ax1.grid(True)
 ax1.set_xlabel('Heat flow ('+Q_units+')')
 ax1.set_ylabel('Temperature ('+T_units+')')
 # Save the figure
-fig1.savefig('Pinch_CompositeCurve.png')
+fig1.savefig('Pinch_CompositeCurve.jpg', bbox_inches="tight")
 
 # Axe 2
 ax2.plot(ptCascade, temperatures,
@@ -276,7 +277,7 @@ ax2.grid(True)
 ax2.set_xlabel('Heat flow ('+Q_units+')')
 ax2.set_ylabel('Temperature ('+T_units+')')
 # Save the figure
-fig2.savefig('Pinch_GrandCompositeCurve.png')
+fig2.savefig('Pinch_GrandCompositeCurve.jpg', bbox_inches="tight")
 
 # Axe 4
 ax4.axes.get_xaxis().set_visible(False)
@@ -293,19 +294,12 @@ table_4 = ax4.table(cellText=cellText_2,
                     colLoc='center', rowLoc='left',
                     loc='center', cellLoc='left')
 
-conditionals_2 = [(j, k) == (0, 0),
-                  (j, k) == (0, 1),
-                  (j, k) == (0, 2)]
-for j in range(0, len(T_in)+1):
-    for k in range(0, 3):
-        if any(conditionals_2):
-            table_4._cells[(j, k)].set_facecolor("lightgray")
-        else:
-            pass
+for pair in ((0, 0), (0, 1), (0, 2)):
+        table_4._cells[pair].set_facecolor("lightgray")
 
 fig4.patch.set_visible(False)
 ax4.axis('off')
-fig4.savefig('Pinch_StreamData.png')
+fig4.savefig('Pinch_StreamData.jpg', pad_inches=0, transparent = True)
 
 # Axe 5
 ax5.axes.get_xaxis().set_visible(False)
@@ -316,28 +310,20 @@ colLabels = ('$T_{in} \ ($'+T_units+')',
              '$T_{out, \ shifted} \ ($'+T_units+')')
 cellText_3 = []
 for k in range(len(T_in)):
-    cellText_3.append([T_in[k], T_out[k], IN[k][4], IN[k][5]])
+    cellText_3.append([T_in[k], T_out[k],
+                       Specifications[k][4], Specifications[k][5]])
 
 table_5 = ax5.table(cellText=cellText_3,
                     colLabels=colLabels,
                     colLoc='center', rowLoc='left',
                     loc='center', cellLoc='left')
 
-conditionals_5 = [(j, k) == (0, 0),
-                  (j, k) == (0, 1),
-                  (j, k) == (0, 2),
-                  (j, k) == (0, 3),
-                  (j, k) == (0, 4)]
-for j in range(0, len(T_in)+1):
-    for k in range(0, 4):
-        if any(conditionals_5):
-            table_5._cells[(j, k)].set_facecolor("lightgray")
-        else:
-            pass
+for pair in ((0, 0), (0, 1), (0, 2), (0, 3)):
+        table_5._cells[pair].set_facecolor("lightgray")
 
 fig5.patch.set_visible(False)
 ax5.axis('off')
-fig5.savefig('Pinch_ShiftedTemperatures.png')
+fig5.savefig('Pinch_ShiftedTemperatures.jpg')
 
 # Axe 3
 ax3.axes.get_xaxis().set_visible(False)
@@ -353,18 +339,13 @@ table_3 = ax3.table(cellText=cellText,
                     colLoc='center', rowLoc='left',
                     loc='center', cellLoc='left')
 
-conditionals_3 = [(j, k) == (0, 0),
-                  (j, k) == (0, 1)]
-for j in range(0, len(temperatures)+1):
-    for k in range(0, 2):
-        if any(conditionals_3):
-            table_3._cells[(j, k)].set_facecolor("lightgray")
-        else:
-            pass
+for pair in ((0, 0), (0, 1)):
+        table_3._cells[pair].set_facecolor("lightgray")
 
 fig3.patch.set_visible(False)
 ax3.axis('off')
-fig3.savefig('Pinch_HeatCascade.png')
+fig3.savefig('Pinch_HeatCascade.jpg', pad_inches=0, transparent = True)
 
 plt.tight_layout()
 plt.show()
+
