@@ -40,6 +40,13 @@ pinchStream('Data').drawCascade() # Draw the heat flow cascade for Data.txt
 pinchStream('Data2') # Create the instance for Data2.txt file
 ```
 
+### Calculations
+
+
+The elements generated for each method of the pinchStream class are detailed below.
+
+The method `<shiftedTemperatures()>` allows
+
 ### Calculation examples
 
 **First example**
