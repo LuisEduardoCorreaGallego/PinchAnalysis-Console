@@ -2,7 +2,7 @@
 This application allows calculate heat integration for heat exchangers.
 
 ## Usage
-To use this application, it is necessary to attach a plain text file document with the information of each stream to analyze. The required information is the heat required in the stream, the inlet or start temperature, the exit or target temperature and the minimum approach. In the same way, the units of temperature and heat flow must be specified.
+This application uses the pinchStream class, which requires attaching a plain text file to the folder where the application is hosted. This class allows to visualize the specifications of the streams and the table of shifted temperatures as well as to generate the composite curve, the grand composite curve and the corresponding heat flow cascade.
 
 ## Required information
 The plain text file must have the following format and the same order:
