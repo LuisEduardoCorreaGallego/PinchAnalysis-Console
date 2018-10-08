@@ -45,7 +45,9 @@ pinchStream('Data2') # Create the instance for Data2.txt file
 
 The elements generated for each method of the pinchStream class are detailed below.
 
-The ```shiftedTemperatures``` method allows
+**```shiftedTemperatures```**
+
+This method allows
 
 ### Calculation examples
 
