@@ -32,11 +32,12 @@ The following are the basic formats to perform the respective calculations:
 
 ```python
 pinchStream('Data') # Create the instance for Data.txt file
-pinchStream('Data').streamData()
-pinchStream('Data').shiftedTemperatures()
-pinchStream('Data').compositeCurve()
-pinchsStream('Data').grandCompositeCurve()
-pinchStream('Data').drawCascade()
+pinchStream('Data').streamData() # Show the information of the streams for Data.txt
+pinchStream('Data').shiftedTemperatures() # Show the shifted temperature table for Data.txt
+pinchStream('Data').compositeCurve() # Show the composite curve for Data.txt
+pinchStream('Data').grandCompositeCurve() # Show the grand composite curve for Data.txt
+pinchStream('Data').drawCascade() # Draw the heat flow cascade for Data.txt
+pinchStream('Data2') # Create the instance for Data2.txt file
 ```
 
 ### Calculation examples
