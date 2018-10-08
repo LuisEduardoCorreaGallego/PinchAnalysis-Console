@@ -12,6 +12,16 @@ The plain text file must have the following format and the same order:
 * <a href="https://www.codecogs.com/eqnedit.php?latex=T_{min}" target="_blank"><img src="https://latex.codecogs.com/gif.latex?T_{out}" title="T_{out}" /></a>
 * <a href="https://www.codecogs.com/eqnedit.php?latex={\Delta&space;T}_{min}" target="_blank"><img src="https://latex.codecogs.com/gif.latex?{\Delta&space;T}_{min}" title="{\Delta T}_{min}" /></a>
 
+## How to manipulate the application?
+
+First, the instance of the class is generated using the pinchStream notation ('Data'):
+
+```python
+pinchStream('Data')
+```
+
+It should be noted that the string 'Data' corresponds to the name of the plain text file. If you want to work on multiple plain text files that contain streams information, their names must vary only numerically, that is, if there is a second file on which you want to perform calculations, it should be called 'Data2' and so on consecutively.
+
 ### Calculation examples
 
 **First example**
