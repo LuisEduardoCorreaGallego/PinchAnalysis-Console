@@ -45,9 +45,30 @@ pinchStream('Data2') # Create the instance for Data2.txt file
 
 The elements generated for each method of the pinchStream class are detailed below.
 
+**```streamData```**
+
+This method allows
+
 **```shiftedTemperatures```**
 
 This method allows
+
+**```cascadeTable```**
+
+This method allows
+
+**```compositeCurve```**
+
+This method allows
+
+**```grandCompositeCurve```**
+
+This method allows
+
+**```drawCascade```**
+
+This method allows
+
 
 ### Calculation examples
 
