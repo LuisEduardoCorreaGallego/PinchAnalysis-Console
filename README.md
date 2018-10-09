@@ -70,7 +70,7 @@ Generate the tables corresponding to the specifications of the currents, the tem
 #### First step
 Create the plain text file with the requires information.
 
-![StreamData](Pinch_StreamData.jpg)
+![StreamData](specifications1.png)
 
 #### Second step
 Calculate the temperatures corrected by the minimum approach.
