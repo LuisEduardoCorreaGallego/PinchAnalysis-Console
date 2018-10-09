@@ -80,7 +80,7 @@ Calculate the temperatures corrected by the minimum approach.
 #### Third step
 Calculate the corresponding heat flow cascade
 
-![StreamData](Pinch_HeatCascade.jpg)
+![StreamData](cascadeTable1.png)
 
 #### Fourth step
 Elaborate the graph of cumulative enthalpies
