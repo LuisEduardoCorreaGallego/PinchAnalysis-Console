@@ -75,7 +75,7 @@ Create the plain text file with the requires information.
 #### Second step
 Calculate the temperatures corrected by the minimum approach.
 
-![StreamData](Pinch_ShiftedTemperatures.jpg)
+![StreamData](shiftedTemperatures1.png)
 
 #### Third step
 Calculate the corresponding heat flow cascade
