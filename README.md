@@ -1,6 +1,12 @@
 # PinchAnalysis
 This application allows calculate heat integration for heat exchangers.
 
+## Installation
+For installing this application
+
+**```pip install PinchAnalysis```**
+
+
 ## Usage
 This application uses the pinchStream class, which requires attaching a plain text file to the folder where the application is hosted. This class allows to visualize the specifications of the streams and the table of shifted temperatures as well as to generate the composite curve, the grand composite curve and the corresponding heat flow cascade.
 
