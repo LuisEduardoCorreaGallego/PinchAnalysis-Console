@@ -1,4 +1,4 @@
-# PinchAnalysis
+# PinchAnalysis - Heat Integration Analysis
 This application allows calculate heat integration for heat exchangers.
 
 ## Installation
