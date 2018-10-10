@@ -116,7 +116,7 @@ Calculate the corresponding heat flow cascade
 #### Fourth step
 Elaborate the graph of cumulative enthalpies
 
-![StreamData](compositeCurve1.png)
+![StreamData](compositeCurve1.jpg)
 
 #### Fifth step
 Elaborate the grand composite graphic
