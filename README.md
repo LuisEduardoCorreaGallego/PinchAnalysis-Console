@@ -113,6 +113,11 @@ Calculate the corresponding heat flow cascade
 
 ![StreamData](cascadeTable1.png)
 
+#### Intervals of temperature
+Draw the intervals for shifted temperatures
+
+![StreamData](1_drawIntervals.jpg)
+
 #### Cumulative enthalpies
 Elaborate the graph of cumulative enthalpies
 
