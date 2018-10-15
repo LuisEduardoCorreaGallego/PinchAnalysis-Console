@@ -108,15 +108,18 @@ Calculate the temperatures corrected by the minimum approach.
 
 ![StreamData](shiftedTemperatures1.png)
 
-#### Heat flow cascade
-Calculate the corresponding heat flow cascade
+#### Initial grid diagram
+Draw the initial grid diagram
 
-![StreamData](cascadeTable1.png)
+![StreamData](1_initialGridDiagram.jpg)
 
 #### Intervals of temperature
 Draw the intervals for shifted temperatures
 
-![StreamData](1_drawIntervals.jpg)
+#### Heat flow cascade
+Calculate the corresponding heat flow cascade
+
+![StreamData](cascadeTable1.png)
 
 #### Cumulative enthalpies
 Elaborate the graph of cumulative enthalpies
