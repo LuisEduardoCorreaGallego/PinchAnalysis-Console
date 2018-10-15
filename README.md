@@ -57,7 +57,7 @@ The elements generated for each method of the pinchStream class are detailed bel
 
 Method | Functionality
 ------------ | -------------
-1 | Draw
+```Python streamData``` | Draw
 2 | Draw
 3 | Draw
 4 | Draw
