@@ -60,12 +60,12 @@ Method | Functionality | Arguments
 ```streamData``` | Draw | Data='1', T_units='°C', Q_units='kW'
 ```drawStreams``` | Draw | Data='1', T_units='°C', Q_units='kW'
 ```shiftedTemperatures``` | Draw | Data='1', T_units='°C', Q_units='kW'
+```initialGridDiagram``` | Draw | Data='1', T_units='°C', Q_units='kW'
+```drawIntervals``` | Draw | Data='1', T_units='°C', Q_units='kW'
 ```cascadeTable``` | Draw | Data='1', T_units='°C', Q_units='kW'
 ```compositeCurve``` | Draw | Data='1', T_units='°C', Q_units='kW'
 ```grandCompositeCurve``` | Draw | Data='1', T_units='°C', Q_units='kW'
 ```drawCascade``` | Draw | Data='1', T_units='°C', Q_units='kW'
-```initialGridDiagram``` | Draw | Data='1', T_units='°C', Q_units='kW'
-```drawIntervals``` | Draw | Data='1', T_units='°C', Q_units='kW'
 
 ### Calculation examples
 
