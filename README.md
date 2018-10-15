@@ -2,7 +2,7 @@
 This application allows calculate heat integration for heat exchangers.
 
 ## Installation
-For installing this application
+For installing this application:
 
 **```pip install PinchAnalysis```**
 
@@ -98,27 +98,27 @@ Stream | Condition | <a href="https://www.codecogs.com/eqnedit.php?latex=T_{in}&
 
 Generate the tables corresponding to the specifications of the currents, the temperatures of interval and the cascade of heat flow as well as the graphs of cumulative enthalpies and grand composite.
 
-#### First step
+#### Specifications for streams
 Create the plain text file with the requires information.
 
 ![StreamData](specifications1.png)
 
-#### Second step
+#### Shifted temperatures
 Calculate the temperatures corrected by the minimum approach.
 
 ![StreamData](shiftedTemperatures1.png)
 
-#### Third step
+#### Heat flow cascade
 Calculate the corresponding heat flow cascade
 
 ![StreamData](cascadeTable1.png)
 
-#### Fourth step
+#### Cumulative enthalpies
 Elaborate the graph of cumulative enthalpies
 
 ![StreamData](compositeCurve1.jpg)
 
-#### Fifth step
+#### Grand composite curve
 Elaborate the grand composite graphic
 
 ![StreamData](Pinch_GrandCompositeCurve.jpg)
