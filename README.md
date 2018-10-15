@@ -108,6 +108,11 @@ Calculate the temperatures corrected by the minimum approach.
 
 ![StreamData](shiftedTemperatures1.png)
 
+#### Diagram for streams
+Draw the streams with information
+
+![StreamData](1_drawStreams.jpg)
+
 #### Initial grid diagram
 Draw the initial grid diagram
 
