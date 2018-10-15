@@ -55,17 +55,17 @@ pinchStream('Data2') # Create the instance for Data2.txt file
 
 The elements generated for each method of the pinchStream class are detailed below.
 
-Method | Functionality
------------- | -------------
-```streamData``` | Draw
-```drawStreams``` | Draw
-```shiftedTemperatures``` | Draw
-```cascadeTable``` | Draw
-```compositeCurve``` | Draw
-```grandCompositeCurve``` | Draw
-```drawCascade``` | Draw
-```initialGridDiagram``` | Draw
-```drawIntervals``` | Draw
+Method | Functionality | Arguments
+------------ | ------------- | -------------
+```streamData``` | Draw | Data='1', T_units='°C', Q_units='kW'
+```drawStreams``` | Draw | Data='1', T_units='°C', Q_units='kW'
+```shiftedTemperatures``` | Draw | Data='1', T_units='°C', Q_units='kW'
+```cascadeTable``` | Draw | Data='1', T_units='°C', Q_units='kW'
+```compositeCurve``` | Draw | Data='1', T_units='°C', Q_units='kW'
+```grandCompositeCurve``` | Draw | Data='1', T_units='°C', Q_units='kW'
+```drawCascade``` | Draw | Data='1', T_units='°C', Q_units='kW'
+```initialGridDiagram``` | Draw | Data='1', T_units='°C', Q_units='kW'
+```drawIntervals``` | Draw | Data='1', T_units='°C', Q_units='kW'
 
 ### Calculation examples
 
