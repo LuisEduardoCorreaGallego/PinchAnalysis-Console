@@ -57,11 +57,15 @@ The elements generated for each method of the pinchStream class are detailed bel
 
 Method | Functionality
 ------------ | -------------
-```Python streamData``` | Draw
-2 | Draw
-3 | Draw
-4 | Draw
-
+```streamData``` | Draw
+```drawStreams``` | Draw
+```shiftedTemperatures``` | Draw
+```cascadeTable``` | Draw
+```compositeCurve``` | Draw
+```grandCompositeCurve``` | Draw
+```drawCascade``` | Draw
+```initialGridDiagram``` | Draw
+```drawIntervals``` | Draw
 
 ### Calculation examples
 
