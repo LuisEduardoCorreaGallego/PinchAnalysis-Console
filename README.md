@@ -57,15 +57,15 @@ The elements generated for each method of the pinchStream class are detailed bel
 
 Method | Functionality | Arguments
 ------------ | ------------- | -------------
-```streamData``` | Draw | Data='1', T_units='°C', Q_units='kW'
-```drawStreams``` | Draw | Data='1', T_units='°C', Q_units='kW'
-```shiftedTemperatures``` | Draw | Data='1', T_units='°C', Q_units='kW'
-```initialGridDiagram``` | Draw | Data='1', T_units='°C', Q_units='kW'
-```drawIntervals``` | Draw | Data='1', T_units='°C', Q_units='kW'
-```cascadeTable``` | Draw | Data='1', T_units='°C', Q_units='kW'
-```compositeCurve``` | Draw | Data='1', T_units='°C', Q_units='kW'
-```grandCompositeCurve``` | Draw | Data='1', T_units='°C', Q_units='kW'
-```drawCascade``` | Draw | Data='1', T_units='°C', Q_units='kW'
+```streamData``` | Draw | Default: T_units='°C', Q_units='kW'
+```drawStreams``` | Draw | Default:T_units='°C', Q_units='kW'
+```shiftedTemperatures``` | Draw | Default: Data='1', T_units='°C', Q_units='kW'
+```initialGridDiagram``` | Draw | Default: Data='1', T_units='°C', Q_units='kW'
+```drawIntervals``` | Draw | Default: Data='1', T_units='°C', Q_units='kW'
+```cascadeTable``` | Draw | Default: Data='1', T_units='°C', Q_units='kW'
+```compositeCurve``` | Draw | Default: Data='1', T_units='°C', Q_units='kW'
+```grandCompositeCurve``` | Draw | Default: Data='1', T_units='°C', Q_units='kW'
+```drawCascade``` | Draw | Default: Data='1', T_units='°C', Q_units='kW'
 
 ### Calculation examples
 
