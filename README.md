@@ -116,6 +116,8 @@ Draw the initial grid diagram
 #### Intervals of temperature
 Draw the intervals for shifted temperatures
 
+![StreamData](1_drawIntervals.jpg)
+
 #### Heat flow cascade
 Calculate the corresponding heat flow cascade
 
