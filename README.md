@@ -4,7 +4,7 @@ This application allows calculate heat integration for heat exchangers.
 ## Installation
 For installing this application:
 
-**```pip install PinchAnalysis```**
+**```pip install --index-url https://test.pypi.org/simple/ PinchAnalysis```**
 
 
 ## Usage
