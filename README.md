@@ -10,14 +10,7 @@ or download the wheel file and use:
 
 **```pip install PinchAnalysis-VERSION-py3-none-any.whl```**
 
-where ![VERSION](https://placehold.it/15/1589F0/000000?text=VERSION) is the most recent version of PinchAnalysis.
-
-## Using diff: red/green monospaced text
-```diff
-+ Green.Like all Byzantine agreement protocols, SCP makes no assumptions about the rational behavior of attackers.
-- Red. Like all Byzantine agreement protocols, SCP makes no assumptions about the rational behavior of attackers.
-Black. Like all Byzantine agreement protocols, SCP makes no assumptions about the rational behavior of attackers.
-```
+where ```diff - Red. VERSION``` is the most recent version of PinchAnalysis.
 
 ## Usage
 This application uses the pinchStream class, which requires attaching a plain text file to the folder where the application is hosted. This class allows to visualize the specifications of the streams and the table of shifted temperatures as well as to generate the composite curve, the grand composite curve and the corresponding heat flow cascade.
