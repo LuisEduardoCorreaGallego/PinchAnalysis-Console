@@ -10,9 +10,7 @@ or download the wheel file and use:
 
 **```pip install PinchAnalysis-VERSION-py3-none-any.whl```**
 
-where VERSION is the most recent version of PinchAnalysis.
-
-![#1589F0](https://placehold.it/15/1589F0/000000?text=+) `#1589F0`
+where ![#1589F0](https://placehold.it/15/1589F0/000000?text=+) `#VERSION` is the most recent version of PinchAnalysis.
 
 ## Usage
 This application uses the pinchStream class, which requires attaching a plain text file to the folder where the application is hosted. This class allows to visualize the specifications of the streams and the table of shifted temperatures as well as to generate the composite curve, the grand composite curve and the corresponding heat flow cascade.
