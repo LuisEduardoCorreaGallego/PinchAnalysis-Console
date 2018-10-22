@@ -6,9 +6,11 @@ For installing this application:
 
 **```pip install --index-url https://test.pypi.org/simple/ PinchAnalysis```**
 
-or
+or download the wheel file and use:
 
-**```pip install --index-url 'https://github.com/LuisEduardoCorreaGallego/PinchAnalysis/tree/master/PinchAnalysis%200.4.6/PinchAnalysis%200.4.6/dist' PinchAnalysis```**
+**```pip install PinchAnalysis-VERSION-py3-none-any.whl```**
+
+where version is the most recent version of PinchAnalysis.
 
 
 ## Usage
