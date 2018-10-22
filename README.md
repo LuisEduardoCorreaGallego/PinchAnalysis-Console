@@ -10,8 +10,9 @@ or download the wheel file and use:
 
 **```pip install PinchAnalysis-VERSION-py3-none-any.whl```**
 
-where ```diff
--Red VERSION
+where
+```diff
+-Red. VERSION
 ```
 is the most recent version of PinchAnalysis.
 
