@@ -89,17 +89,17 @@ Stream | Condition | <a href="https://www.codecogs.com/eqnedit.php?latex=T_{in}&
 Generate the tables corresponding to the specifications of the streams, the temperatures of interval and the cascade of heat flow as well as the graphs of cumulative enthalpies and grand composite.
 
 #### Specifications for streams
-Create the plain text file with the requires information.
+Create the plain text file with the requires information. Specifications are displayed as a table.
 
 ![StreamData](specifications1.png)
 
 #### Shifted temperatures
-Calculate the temperatures corrected by the minimum approach.
+Calculate the temperatures corrected by the minimum approach. The shifted temperatures are displayed as a table.
 
 ![StreamData](shiftedTemperatures1.png)
 
 #### Diagram for streams
-Draw the streams with information
+Draw the streams with corresponding information
 
 ![StreamData](1_drawStreams.jpg)
 
