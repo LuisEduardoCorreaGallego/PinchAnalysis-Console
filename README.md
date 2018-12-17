@@ -61,14 +61,14 @@ The elements generated for each method of the pinchStream class are detailed bel
 Method | Functionality | Arguments
 ------------ | ------------- | -------------
 ```streamData``` | It displays a table with the information for streams | Default: T_units='°C', Q_units='kW'
-```drawStreams``` | Draw | Default: Data='1', T_units='°C', Q_units='kW'
-```shiftedTemperatures``` | Draw | Default: T_units='°C', Q_units='kW'
-```initialGridDiagram``` | Draw | Default: Data='1', T_units='°C', Q_units='kW'
-```drawIntervals``` | Draw | Default: Data='1', T_units='°C', Q_units='kW'
-```cascadeTable``` | Draw | Default: Data='1', T_units='°C', Q_units='kW'
-```compositeCurve``` | Draw | Default: Data='1', T_units='°C', Q_units='kW'
-```grandCompositeCurve``` | Draw | Default: Data='1', T_units='°C', Q_units='kW'
-```drawCascade``` | Draw | Default: Data='1', T_units='°C', Q_units='kW'
+```drawStreams``` | Draw the corresponding streams| Default: Data='1', T_units='°C', Q_units='kW'
+```shiftedTemperatures``` | Draw the shifted temperatures| Default: T_units='°C', Q_units='kW'
+```initialGridDiagram``` | Draw the initial grid diagram| Default: Data='1', T_units='°C', Q_units='kW'
+```drawIntervals``` | Draw the intervals of temperature| Default: Data='1', T_units='°C', Q_units='kW'
+```cascadeTable``` | Display the energy cascade | Default: Data='1', T_units='°C', Q_units='kW'
+```compositeCurve``` | Draw the composite curve| Default: Data='1', T_units='°C', Q_units='kW'
+```grandCompositeCurve``` | Draw the grand composite curve| Default: Data='1', T_units='°C', Q_units='kW'
+```drawCascade``` | Draw the energy cascade| Default: Data='1', T_units='°C', Q_units='kW'
 
 ### Calculation examples
 
@@ -86,7 +86,7 @@ Stream | Condition | <a href="https://www.codecogs.com/eqnedit.php?latex=T_{in}&
 5 | Cold | 90 | 190 | -800 |
 6 | Cold | 40 | 190 | -600 |
 
-Generate the tables corresponding to the specifications of the currents, the temperatures of interval and the cascade of heat flow as well as the graphs of cumulative enthalpies and grand composite.
+Generate the tables corresponding to the specifications of the streams, the temperatures of interval and the cascade of heat flow as well as the graphs of cumulative enthalpies and grand composite.
 
 #### Specifications for streams
 Create the plain text file with the requires information.
