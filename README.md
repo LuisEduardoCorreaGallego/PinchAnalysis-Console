@@ -59,7 +59,7 @@ Method | Functionality | Arguments
 ```streamData``` | It displays a table with the information for streams | Default: T_units='°C', Q_units='kW'
 ```drawStreams``` | Draw the corresponding streams| Default: Data='1', T_units='°C', Q_units='kW'
 ```shiftedTemperatures``` | Draw the shifted temperatures| Default: T_units='°C', Q_units='kW'
-```initialGridDiagram``` | Draw the initial grid diagram| Default: Data='1', T_units='°C', Q_units='kW'
+```initialGridDiagram``` | Draw the initial grid diagram (development)| Default: Data='1', T_units='°C', Q_units='kW'
 ```drawIntervals``` | Draw the intervals of temperature| Default: Data='1', T_units='°C', Q_units='kW'
 ```cascadeTable``` | Display the energy cascade | Default: Data='1', T_units='°C', Q_units='kW'
 ```compositeCurve``` | Draw the composite curve| Default: Data='1', T_units='°C', Q_units='kW'
