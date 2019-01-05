@@ -167,12 +167,12 @@ Draw the intervals for shifted temperatures
 #### Heat flow cascade
 Calculate the corresponding heat flow cascade
 
-![StreamData](cascadeTable2.png)
+![StreamData](cascadeTable2.PNG)
 
 #### Cumulative enthalpies
 Elaborate the graph of cumulative enthalpies
 
-![StreamData](compositeCurve2.jpg)
+![StreamData](2_CompositeCurve.jpg)
 
 #### Grand composite curve
 Elaborate the grand composite graphic
