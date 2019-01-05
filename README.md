@@ -142,12 +142,12 @@ Generate the tables corresponding to the specifications of the streams, the temp
 #### Specifications for streams
 Create the plain text file with the requires information. Specifications are displayed as a table.
 
-![StreamData](specifications2.png)
+![StreamData](specifications2.PNG)
 
 #### Shifted temperatures
 Calculate the temperatures corrected by the minimum approach. The shifted temperatures are displayed as a table.
 
-![StreamData](shiftedTemperatures2.png)
+![StreamData](shiftedTemperatures2.PNG)
 
 #### Diagram for streams
 Draw the streams with corresponding information
