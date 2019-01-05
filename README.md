@@ -127,6 +127,7 @@ Elaborate the grand composite graphic
 **Second example**
 
 **Table 1.1 (Data2.txt)** _[Adapted from Pinch Analysis and Process Integration: A User Guide on Process Integration for the Efficient Use of Energy, Ian C. Kemp, page 4]_
+
 Given the following data:
 
 Stream | Condition | <a href="https://www.codecogs.com/eqnedit.php?latex=T_{in}&space;\&space;(^{}\circ&space;C)" target="_blank"><img src="https://latex.codecogs.com/gif.latex?T_{in}&space;\&space;(^{}\circ&space;C)" title="T_{in} \ (^{}\circ C)" /></a> | <a href="https://www.codecogs.com/eqnedit.php?latex=T_{out}&space;\&space;(^{\circ}&space;C)" target="_blank"><img src="https://latex.codecogs.com/gif.latex?T_{out}&space;\&space;(^{\circ}&space;C)" title="T_{out} \ (^{\circ} C)" /></a>| <a href="https://www.codecogs.com/eqnedit.php?latex={\dot{Q}}_{available}&space;\&space;(kW)" target="_blank"><img src="https://latex.codecogs.com/gif.latex?{\dot{Q}}_{available}&space;\&space;(kW)" title="{\dot{Q}}_{available} \ (kW)" /></a>
@@ -141,39 +142,39 @@ Generate the tables corresponding to the specifications of the streams, the temp
 #### Specifications for streams
 Create the plain text file with the requires information. Specifications are displayed as a table.
 
-![StreamData](specifications1.png)
+![StreamData](specifications2.png)
 
 #### Shifted temperatures
 Calculate the temperatures corrected by the minimum approach. The shifted temperatures are displayed as a table.
 
-![StreamData](shiftedTemperatures1.png)
+![StreamData](shiftedTemperatures2.png)
 
 #### Diagram for streams
 Draw the streams with corresponding information
 
-![StreamData](1_drawStreams.jpg)
+![StreamData](2_drawStreams.jpg)
 
 #### Initial grid diagram
 Draw the initial grid diagram
 
-![StreamData](1_initialGridDiagram.jpg)
+![StreamData](2_initialGridDiagram.jpg)
 
 #### Intervals of temperature
 Draw the intervals for shifted temperatures
 
-![StreamData](1_drawIntervals.jpg)
+![StreamData](2_drawIntervals.jpg)
 
 #### Heat flow cascade
 Calculate the corresponding heat flow cascade
 
-![StreamData](cascadeTable1.png)
+![StreamData](cascadeTable2.png)
 
 #### Cumulative enthalpies
 Elaborate the graph of cumulative enthalpies
 
-![StreamData](compositeCurve1.jpg)
+![StreamData](compositeCurve2.jpg)
 
 #### Grand composite curve
 Elaborate the grand composite graphic
 
-![StreamData](Pinch_GrandCompositeCurve.jpg)
+![StreamData](2_grandCompositeCurve.jpg)
