@@ -226,7 +226,7 @@ Calculate the corresponding heat flow cascade
 #### Cumulative enthalpies
 Elaborate the graph of cumulative enthalpies
 
-![StreamData](CompositeCurve3.jpg)
+![StreamData](3_CompositeCurve.jpg)
 
 #### Grand composite curve
 Elaborate the grand composite graphic
