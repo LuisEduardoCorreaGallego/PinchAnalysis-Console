@@ -181,19 +181,17 @@ Elaborate the grand composite graphic
 
 **Third example**
 
-**Exercise 4. (Data3.txt)** _[Adapted from Analysis, Synthesis and Design of Chemical Processes, Richard Turton, Richard C. Baille, Wallace B. Whiting, Joseph A. Shaeiwitz, page 525]_
-In a process, there are a total of six streams that require heating and cooling. These are listed below along with their thermal and flow data. A stream is referred to as "hot" if it requires cooling, and "cold" if it requires heating. The temperature of the stream is not used to define whether it is "hot" or "cold".
+**Exercise 3.6 (Data3.txt)** _[Adapted from PINCH ANALYSIS FOR ENERGY AND CARBON FOOTPRINT REDUCTION: User Guide to Process Integration for the Efficient Use of Energy, Ian C. Kemp, Jeng Shiun Lim, third edition, page 60]_
+Calculate the hot and cold composite curves, problem table, grand composite curve, hot and cold utility targets and pinch temperature for the problem with stream data given in the table below at a global DT_min of 10 °C, using a calculator, your own spreadsheet or the spreadsheet supplied with the book.
 
 Stream | Condition | <a href="https://www.codecogs.com/eqnedit.php?latex=T_{in}&space;\&space;(^{}\circ&space;C)" target="_blank"><img src="https://latex.codecogs.com/gif.latex?T_{in}&space;\&space;(^{}\circ&space;C)" title="T_{in} \ (^{}\circ C)" /></a> | <a href="https://www.codecogs.com/eqnedit.php?latex=T_{out}&space;\&space;(^{\circ}&space;C)" target="_blank"><img src="https://latex.codecogs.com/gif.latex?T_{out}&space;\&space;(^{\circ}&space;C)" title="T_{out} \ (^{\circ} C)" /></a>| <a href="https://www.codecogs.com/eqnedit.php?latex={\dot{Q}}_{available}&space;\&space;(kW)" target="_blank"><img src="https://latex.codecogs.com/gif.latex?{\dot{Q}}_{available}&space;\&space;(kW)" title="{\dot{Q}}_{available} \ (kW)" /></a>
 ------------ | ------------- | ------------- | ------------- | ------------- |
-1 | Hot | 300 | 150 | 1200 |
-2 | Hot | 150 | 50 | 200 |
-3 | Hot | 200 | 50 | 450 |
-4 | Cold | 190 | 290 | -500 |
-5 | Cold | 90 | 190 | -800 |
-6 | Cold | 40 | 190 | -600 |
+1 | Hot | 200 | 50 | 450 |
+2 | Hot | 240 | 100 | 210 |
+3 | Hot | 120 | 119 | 300 |
+4 | Cold | 30 | 200 | 680 |
+5 | Cold | 50 | 250 | 400 |
 
-Generate the tables corresponding to the specifications of the streams, the temperatures of interval and the cascade of heat flow as well as the graphs of cumulative enthalpies and grand composite.
 
 #### Specifications for streams
 Create the plain text file with the requires information. Specifications are displayed as a table.
