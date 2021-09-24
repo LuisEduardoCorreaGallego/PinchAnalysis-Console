@@ -254,12 +254,12 @@ Stream | Condition | <a href="https://www.codecogs.com/eqnedit.php?latex=T_{in}&
 5 | Cold B2C | 60 | 260 | 500 |
 
 
-#### Specifications for streams
-Create the plain text file with the requires information. Specifications are displayed as a table.
+#### Problem Tables
 
-![StreamData](specifications3.PNG)
+![StreamData](cascadeTable4A.PNG)
+![StreamData](cascadeTable4B.PNG)
 
-#### Shifted temperatures
-Calculate the temperatures corrected by the minimum approach. The shifted temperatures are displayed as a table.
+#### Grand Composite Curves
 
-![StreamData](shiftedTemperatures3.PNG)
+![StreamData](4A_grandCompositeCurve.jpg)
+![StreamData](4B_grandCompositeCurve.jpg)
