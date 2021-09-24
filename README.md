@@ -232,3 +232,34 @@ Elaborate the graph of cumulative enthalpies
 Elaborate the grand composite graphic
 
 ![StreamData](3_grandCompositeCurve.jpg)
+
+**Fourth example**
+
+**6.6 Worked Case Study and Example for Total Site Problem Algorith (DataA.txt and DataB.txt)** _[Adapted from PINCH ANALYSIS FOR ENERGY AND CARBON FOOTPRINT REDUCTION: User Guide to Process Integration for the Efficient Use of Energy, Ian C. Kemp, Jeng Shiun Lim, third edition, page 249]_
+Consider a total site case with two plants, i.e., Plant A and Plant B. The process stream data for the two plants are given in tables below. For Plant A, use <img src="https://render.githubusercontent.com/render/math?math=\Delta T_{min}"> of 10 °C and for Planta B use <img src="https://render.githubusercontent.com/render/math?math=\Delta T_{min}"> of 20 °C.
+
+Stream | Condition | <a href="https://www.codecogs.com/eqnedit.php?latex=T_{in}&space;\&space;(^{}\circ&space;C)" target="_blank"><img src="https://latex.codecogs.com/gif.latex?T_{in}&space;\&space;(^{}\circ&space;C)" title="T_{in} \ (^{}\circ C)" /></a> | <a href="https://www.codecogs.com/eqnedit.php?latex=T_{out}&space;\&space;(^{\circ}&space;C)" target="_blank"><img src="https://latex.codecogs.com/gif.latex?T_{out}&space;\&space;(^{\circ}&space;C)" title="T_{out} \ (^{\circ} C)" /></a>| <a href="https://www.codecogs.com/eqnedit.php?latex={\dot{Q}}_{available}&space;\&space;(kW)" target="_blank"><img src="https://latex.codecogs.com/gif.latex?{\dot{Q}}_{available}&space;\&space;(kW)" title="{\dot{Q}}_{available} \ (kW)" /></a>
+------------ | ------------- | ------------- | ------------- | ------------- |
+1 | Hot A1H | 210 | 110 | 2500 |
+2 | Hot A2H | 160 | 60 | 4000 |
+3 | Cold A1C | 60 | 120 | 6000 |
+4 | Cold A2C | 50 | 200 | 4500 |
+
+Stream | Condition | <a href="https://www.codecogs.com/eqnedit.php?latex=T_{in}&space;\&space;(^{}\circ&space;C)" target="_blank"><img src="https://latex.codecogs.com/gif.latex?T_{in}&space;\&space;(^{}\circ&space;C)" title="T_{in} \ (^{}\circ C)" /></a> | <a href="https://www.codecogs.com/eqnedit.php?latex=T_{out}&space;\&space;(^{\circ}&space;C)" target="_blank"><img src="https://latex.codecogs.com/gif.latex?T_{out}&space;\&space;(^{\circ}&space;C)" title="T_{out} \ (^{\circ} C)" /></a>| <a href="https://www.codecogs.com/eqnedit.php?latex={\dot{Q}}_{available}&space;\&space;(kW)" target="_blank"><img src="https://latex.codecogs.com/gif.latex?{\dot{Q}}_{available}&space;\&space;(kW)" title="{\dot{Q}}_{available} \ (kW)" /></a>
+------------ | ------------- | ------------- | ------------- | ------------- |
+1 | Hot B1H | 220 | 60 | 400 |
+2 | Hot B2H | 250 | 100 | 300 |
+3 | Hot B3H | 170 | 105 | 1300 |
+4 | Cold B1C | 40 | 180 | 700 |
+5 | Cold B2C | 60 | 260 | 500 |
+
+
+#### Specifications for streams
+Create the plain text file with the requires information. Specifications are displayed as a table.
+
+![StreamData](specifications3.PNG)
+
+#### Shifted temperatures
+Calculate the temperatures corrected by the minimum approach. The shifted temperatures are displayed as a table.
+
+![StreamData](shiftedTemperatures3.PNG)
