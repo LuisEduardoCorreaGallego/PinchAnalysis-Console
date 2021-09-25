@@ -319,3 +319,57 @@ Elaborate the grand composite graphic
 
 ![StreamData](5_grandCompositeCurve.jpg)
 
+**Sixth example**
+
+**Ejemplo 9.1 (Data6.txt)** _[Adapted from DISEÑO DE PROCESOS EN INGENIERÍA QUÍMICA, Arturo Jiménez Gutiérrez, Editorial Reverté, S.A., page 205]_
+
+Se quieren usar dos corrientes calientes y una corriente fría para diseñar una red de intercambiadores de calor. La siguiente tabla proporciona los datos del problema.
+
+Stream | Condition | <a href="https://www.codecogs.com/eqnedit.php?latex=T_{in}&space;\&space;(^{}\circ&space;C)" target="_blank"><img src="https://latex.codecogs.com/gif.latex?T_{in}&space;\&space;(^{}\circ&space;C)" title="T_{in} \ (^{}\circ C)" /></a> | <a href="https://www.codecogs.com/eqnedit.php?latex=T_{out}&space;\&space;(^{\circ}&space;C)" target="_blank"><img src="https://latex.codecogs.com/gif.latex?T_{out}&space;\&space;(^{\circ}&space;C)" title="T_{out} \ (^{\circ} C)" /></a>| <a href="https://www.codecogs.com/eqnedit.php?latex={\dot{Q}}_{available}&space;\&space;(kW)" target="_blank"><img src="https://latex.codecogs.com/gif.latex?{\dot{Q}}_{available}&space;\&space;(kW)" title="{\dot{Q}}_{available} \ (kW)" /></a>
+------------ | ------------- | ------------- | ------------- | ------------- |
+1 | H1 | 200 | 80 | 240 |
+2 | H2 | 180 | 30 | 1050 |
+3 | C1 | 70 | 170 | 1000 |
+
+Considerando un valor de <img src="https://render.githubusercontent.com/render/math?math=\Delta T_{min}"> de 10 °C, use el método del punto de pliegue para integrar la máxima cantidad de calor entre las corrientes.
+
+#### Specifications for streams
+Create the plain text file with the requires information. Specifications are displayed as a table.
+
+![StreamData](specifications6.PNG)
+
+#### Shifted temperatures
+Calculate the temperatures corrected by the minimum approach. The shifted temperatures are displayed as a table.
+
+![StreamData](shiftedTemperatures6.PNG)
+
+#### Diagram for streams
+Draw the streams with corresponding information
+
+![StreamData](6_drawStreams.jpg)
+
+#### Initial grid diagram
+Draw the initial grid diagram
+
+![StreamData](6_initialGridDiagram.jpg)
+
+#### Intervals of temperature
+Draw the intervals for shifted temperatures
+
+![StreamData](6_drawIntervals.jpg)
+
+#### Heat flow cascade
+Calculate the corresponding heat flow cascade
+
+![StreamData](cascadeTable6.PNG)
+
+#### Cumulative enthalpies
+Elaborate the graph of cumulative enthalpies
+
+![StreamData](6_CompositeCurve.jpg)
+
+#### Grand composite curve
+Elaborate the grand composite graphic
+
+![StreamData](6_grandCompositeCurve.jpg)
+
