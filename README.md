@@ -375,7 +375,7 @@ Elaborate the grand composite graphic
 
 **Seventh example**
 
-**2. Problem Statement (Data7.txt)** _[Adapted from Introduction to Pinch Technology, Rokni Masoud, Tehcnical University of Denmark page 3]_
+**2. Problem Statement (Data7.txt)** _[Adapted from Introduction to Pinch Technology, Rokni Masoud, Tehcnical University of Denmark, page 3]_
 
 A typical industrial process may consist of several numbers of hot and cold process streams which may demand cooling and heating respectively. Heat exchangers can be used to recover some of the heat demand while external heaters and coolers can be used to achieve the temperature demand for the process strams. Suppose an industrial plant with hot and cold process strams as shown in the following table.
 
