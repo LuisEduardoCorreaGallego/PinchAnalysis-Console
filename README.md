@@ -375,16 +375,17 @@ Elaborate the grand composite graphic
 
 **Seventh example**
 
-**Table 3.2 (Data5.txt)** _[Adapted from CHEMICAL ENGINERING DESIGN: Principles, Practice and Economics of Plant and Process Design, GAVIN TOWLER, RAY SINNOTT, page 125]_
+**2. Problem Statement (Data7.txt)** _[Adapted from CHEMICAL ENGINERING DESIGN: Principles, Practice and Economics of Plant and Process Design, GAVIN TOWLER, RAY SINNOTT, page 125]_
 
-Given the following data:
+A typical industrial process may consist of several numbers of hot and cold process streams which may demand cooling and heating respectively. Heat exchangers can be used to recover some of the heat demand while external heaters and coolers can be used to achieve the temperature demand for the process strams. Suppose an industrial plant with hot and cold process strams as shown in the following table.
 
 Stream | Condition | <a href="https://www.codecogs.com/eqnedit.php?latex=T_{in}&space;\&space;(^{}\circ&space;C)" target="_blank"><img src="https://latex.codecogs.com/gif.latex?T_{in}&space;\&space;(^{}\circ&space;C)" title="T_{in} \ (^{}\circ C)" /></a> | <a href="https://www.codecogs.com/eqnedit.php?latex=T_{out}&space;\&space;(^{\circ}&space;C)" target="_blank"><img src="https://latex.codecogs.com/gif.latex?T_{out}&space;\&space;(^{\circ}&space;C)" title="T_{out} \ (^{\circ} C)" /></a>| <a href="https://www.codecogs.com/eqnedit.php?latex={\dot{Q}}_{available}&space;\&space;(kW)" target="_blank"><img src="https://latex.codecogs.com/gif.latex?{\dot{Q}}_{available}&space;\&space;(kW)" title="{\dot{Q}}_{available} \ (kW)" /></a>
 ------------ | ------------- | ------------- | ------------- | ------------- |
-1 | Hot | 180 | 60 | 360 |
-2 | Hot | 150 | 30 | 120 |
-3 | Cold | 20 | 135 | 230 |
-4 | Cold | 80 | 140 | 270 |
+1 | Cold | 90 | 420 | 3300 |
+2 | Cold | 170 | 350 | 5760 |
+3 | Cold | 200 | 390 | 5510 |
+4 | Hot | 440 | 140 | 8100 |
+4 | Hot | 510 | 300 | 5040 |
 
 Generate the tables corresponding to the specifications of the streams, the temperatures of interval and the cascade of heat flow as well as the graphs of cumulative enthalpies and grand composite.
 
