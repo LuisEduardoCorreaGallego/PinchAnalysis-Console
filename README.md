@@ -373,3 +373,57 @@ Elaborate the grand composite graphic
 
 ![StreamData](6_grandCompositeCurve.jpg)
 
+**Seventh example**
+
+**Table 3.2 (Data5.txt)** _[Adapted from CHEMICAL ENGINERING DESIGN: Principles, Practice and Economics of Plant and Process Design, GAVIN TOWLER, RAY SINNOTT, page 125]_
+
+Given the following data:
+
+Stream | Condition | <a href="https://www.codecogs.com/eqnedit.php?latex=T_{in}&space;\&space;(^{}\circ&space;C)" target="_blank"><img src="https://latex.codecogs.com/gif.latex?T_{in}&space;\&space;(^{}\circ&space;C)" title="T_{in} \ (^{}\circ C)" /></a> | <a href="https://www.codecogs.com/eqnedit.php?latex=T_{out}&space;\&space;(^{\circ}&space;C)" target="_blank"><img src="https://latex.codecogs.com/gif.latex?T_{out}&space;\&space;(^{\circ}&space;C)" title="T_{out} \ (^{\circ} C)" /></a>| <a href="https://www.codecogs.com/eqnedit.php?latex={\dot{Q}}_{available}&space;\&space;(kW)" target="_blank"><img src="https://latex.codecogs.com/gif.latex?{\dot{Q}}_{available}&space;\&space;(kW)" title="{\dot{Q}}_{available} \ (kW)" /></a>
+------------ | ------------- | ------------- | ------------- | ------------- |
+1 | Hot | 180 | 60 | 360 |
+2 | Hot | 150 | 30 | 120 |
+3 | Cold | 20 | 135 | 230 |
+4 | Cold | 80 | 140 | 270 |
+
+Generate the tables corresponding to the specifications of the streams, the temperatures of interval and the cascade of heat flow as well as the graphs of cumulative enthalpies and grand composite.
+
+#### Specifications for streams
+Create the plain text file with the requires information. Specifications are displayed as a table.
+
+![StreamData](specifications7.PNG)
+
+#### Shifted temperatures
+Calculate the temperatures corrected by the minimum approach. The shifted temperatures are displayed as a table.
+
+![StreamData](shiftedTemperatures7.PNG)
+
+#### Diagram for streams
+Draw the streams with corresponding information
+
+![StreamData](7_drawStreams.jpg)
+
+#### Initial grid diagram
+Draw the initial grid diagram
+
+![StreamData](7_initialGridDiagram.jpg)
+
+#### Intervals of temperature
+Draw the intervals for shifted temperatures
+
+![StreamData](7_drawIntervals.jpg)
+
+#### Heat flow cascade
+Calculate the corresponding heat flow cascade
+
+![StreamData](cascadeTable7.PNG)
+
+#### Cumulative enthalpies
+Elaborate the graph of cumulative enthalpies
+
+![StreamData](7_CompositeCurve.jpg)
+
+#### Grand composite curve
+Elaborate the grand composite graphic
+
+![StreamData](7_grandCompositeCurve.jpg)
