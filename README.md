@@ -1,4 +1,4 @@
-# PinchAnalysis - Heat Integration Analysis
+# PinchAnalysis - Heat Integration Analysis [![Donate](https://img.shields.io/badge/Donate-PayPal-green.svg)](https://paypal.me/LuisEduardoCorreaG )
 This application allows calculate heat integration for heat exchangers.
 
 ## Installation
