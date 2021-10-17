@@ -430,4 +430,4 @@ Elaborate the grand composite graphic
 ![StreamData](7_grandCompositeCurve.jpg)
 
 ## Donation 
-If this project has helped you reduce your study or research time, please support me through PayPal to keep improving even more :)
+If this project has helped you reduce your study or research time, please support me to keep improving even more :)
